@@ -14,6 +14,7 @@
           /* リセット　css */
           h1,h2,h3,ul,li,p{
                margin:0;
+               padding:0;
           }
            /* ヘッダー　css */
            header{
@@ -22,13 +23,14 @@
            h1{
              margin-left:20px;
              font-size:32px;
-             color:crimson;
+             color:darkred;
            }
           header p{margin-left:20px;}
            /* ナビゲーション　css */
            nav{
                padding-top:5px;
                padding-bottom:5px;
+               overflow:hidden;
                background-color:burlywood;
            }
            nav ul{list-style-type:none;}
@@ -40,7 +42,7 @@
               padding:5px;
               line-height:38px;
               float:left;
-              border:soild 1px brown;
+              border:solid 1px brown;
               background-color:bisque;
            }
            /* メインコンテンツ　css */
@@ -95,7 +97,7 @@
             <h2>ピックアップスイーツ</h2>
             <p>今月のおすすめスイーツを2つ紹介します。</p>
          <section class="sweets">
-            <h3 id="blanc">モンブラン</h3>
+            <h3>モンブラン</h3>
             <p>今月採れた国内産の栗を使用したケーキです。</p>
             <img src="images/Blanc2.jpg" alt="モンブランの写真">
          </section>
@@ -104,6 +106,7 @@
             <p>沖縄産の砂糖を使用したマカロンです。</p>
             <img src="images/macron2.jpg" alt="マカロンの写真">
          </section>
+        </article>
        </main>
           <footer>
                <small>&copy; 2018 Material Sweets.</small>
