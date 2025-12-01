@@ -1,6 +1,4 @@
-<head>
-@charset"utf-8"
-<style>
+@charset "utf-8"
            /* ページ全体　css */
            body{
              font-size:16px;
@@ -75,5 +73,4 @@
                 padding:20px;
                 text-align:right;
                 background-color:bisque;}
-           </style>
-           </head>
+           
